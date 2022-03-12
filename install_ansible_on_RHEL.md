@@ -38,6 +38,9 @@
     #### Install Ansible as a ansadmin user (on Control node)
    ```sh 
    su - ansadmin
+
+   pip3 install --upgrade pip --user
+   pip3 install setuptools-rust --user
    pip3 install ansible --user
    ``` 
       Note: Ansible must be installed as a user (here ansadmin)
